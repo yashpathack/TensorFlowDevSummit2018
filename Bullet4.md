@@ -3,6 +3,7 @@ Neural networks
 
 
 The circles are called input 
-Lines are called weights
+Lines are called weights and they contain some value called weights
 second layers are called synapses
-and the end is single neuron
+And the end is single neuron
+Deep neural networks
