@@ -10,3 +10,6 @@ Deeplearning: Subset of Machine learing
 # [1,0,1] => 1
 # [0,1,0] => 0
 # [0,1,1] => 0
+
+gist.github.com/coder3101
+Gradient Descent.ipynb
