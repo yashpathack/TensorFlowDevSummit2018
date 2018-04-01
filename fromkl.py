@@ -29,3 +29,5 @@ y = tf.placeholder(dtype=tf.float32,shape=[None,2])
 
 w0 = tf.Variable(initial_value=tf.truncated_normal([3,2],stddev=0.5))
 b0 = tf.Variable(tf.zeroes([2]))
+
+mult = tf.matmul(x,w0) + b0
