@@ -46,5 +46,18 @@ sess.run(tf.global_variables_initializer())
 #Initializer initializes all the vaeiables in the program
 
 def accuracy():
-  print('Testing on \n', x_test)
-  print('Expected output' )
+    print('Testing on \n',x_test)
+    print('Expected output :  \n',y_test)
+    print('Predicted output :  \n',sess.run(tf.sigmoid(mult),feed_dict={x:x_test}))
+ 
+print('Before running : ')
+accuracy()
+
+for i in range(10000):
+    sess.run(mini, feed_dict={x:x_train,y:y_train})
+    if i%500 == 0:
+        print("Cross Entropy at {0:.3f} is {1:.3f}".format(i,sess.run(cross,feed_dict={x:x_train,y:y_train})))
+
+accuracy()
+sess.close()
+  
