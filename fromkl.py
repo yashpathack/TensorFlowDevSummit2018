@@ -44,3 +44,7 @@ sess = tf.Session()
 sess.run(tf.global_variables_initializer())
 
 #Initializer initializes all the vaeiables in the program
+
+def accuracy():
+  print('Testing on \n', x_test)
+  print('Expected output' )
