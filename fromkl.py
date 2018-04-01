@@ -21,3 +21,6 @@ xTest = np.array([[0,1,1],
 yTest = np.array([[1,0],
                   [0,1],
                   [1,0]])
+
+x = tf.placeholder(dtype=tf.float32,shape=[None,3])
+y = tf.placeholder(dtype=tf.float32,shape=[None,2])
