@@ -7,3 +7,4 @@ Lines are called weights and they contain some value called weights
 second layers are called synapses
 And the end is single neuron
 Deep neural networks
+Biases are the lines
