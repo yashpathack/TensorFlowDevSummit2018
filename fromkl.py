@@ -35,3 +35,7 @@ mult = tf.matmul(x,w0) + b0
 cross = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(labels = y_test, logits = multi))
 #Cross entropy or loss function means how poor the function is performing
 #Reduce means the average of the elements of the array
+
+mini = tf.train.GradientDescentOptimizer(0.1).minimize(cross)
+
+# (0.1) is hyper parameter
