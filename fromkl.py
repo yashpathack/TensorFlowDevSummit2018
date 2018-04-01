@@ -39,3 +39,8 @@ cross = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(labels = y_test, 
 mini = tf.train.GradientDescentOptimizer(0.1).minimize(cross)
 
 # (0.1) is hyper parameter
+
+sess = tf.Session()
+sess.run(tf.global_variables_initializer())
+
+#Initializer initializes all the vaeiables in the program
