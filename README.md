@@ -1,5 +1,5 @@
 # TensorFlowDevSummit2018
-![alt text](https://cdn-images-1.medium.com/max/1600/0*LDGNE2IRJOFFcJ3s.png)
+![alt text](https://cdn-images-1.medium.com/max/1600/0*LDGNE2IRJOFFcJ3s.png) <br>
 TensorFlow requires 64 Bit Windows. We'll use the pip installer for the procession.
 Machine learing learns from experiments. Use of computational models
 Deeplearning: Subset of Machine learing
